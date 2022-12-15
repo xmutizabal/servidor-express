@@ -8,7 +8,7 @@ const {corredores}=require('./corredores.js');
 //Routing
 
 app.get('/', (req, res)=>{
-	res.send("Hola probando el servidor 11 ..... entonces");
+	res.send(corredores[2]);
 });
 
 app.get('/ranking', (req, res)=>{
